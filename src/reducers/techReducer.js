@@ -22,10 +22,11 @@ export default (state = initialState, action) => {
     case DELETE_TECH:
       return {
         ...state,
-        techs: state.logs.filter(tech => tech.id !== action.payload),
+        techs: state.techs.filter(tech => tech.id !== action.payload),
         loading: false
       };
     case GET_TECHS:
+      console.log(action.payload);
       return {
         ...state,
         techs: action.payload,

@@ -7,6 +7,7 @@ import { getTechs } from "../../actions/techActions";
 const TechListModal = ({ tech: { techs, loading }, getTechs }) => {
   useEffect(() => {
     getTechs();
+    console.log(techs);
   }, []);
 
   return (

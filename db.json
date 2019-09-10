@@ -38,11 +38,6 @@
   ],
   "techs": [
     {
-      "id": 1,
-      "firstName": "Boba",
-      "lastName": "Fett"
-    },
-    {
       "id": 2,
       "firstName": "Han",
       "lastName": "Solo"
@@ -56,11 +51,6 @@
       "firstName": "Walter",
       "lastName": "White",
       "id": 4
-    },
-    {
-      "firstName": "Jesse",
-      "lastName": "Pinkman",
-      "id": 5
     }
   ]
 }

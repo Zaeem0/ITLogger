@@ -10,7 +10,10 @@ export const getTechs = () => async dispatch => {
   try {
     setLoading();
     const res = await fetch("/techs");
+    console.log(res);
     const data = await res.json();
+    console.log(data);
+
     dispatch({
       type: GET_TECHS,
       payload: data
